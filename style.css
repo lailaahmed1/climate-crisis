@@ -1,0 +1,33 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background-color: #e0edd4;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #ffffff;
+}
+
+li a {
+  display: block;
+  color: #000000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+li a.active {
+  background-color: #ffffff;
+  color: white;
+}
+
+li a:hover:not(.active) {
+  background-color: #000000;
+  color: white;
+}
